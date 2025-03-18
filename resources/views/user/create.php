@@ -70,6 +70,7 @@ a {
 <body>
 
 <form action="http://localhost:8000/foo/user/create" method="POST" enctype="multipart/form-data">
+  @csrf
   <div class="container">
     <h1>Nuevo usuario</h1>
     <hr>
